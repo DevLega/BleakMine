@@ -1,0 +1,26 @@
+name: BleakMine
+version: '1.0-SNAPSHOT'
+main: me.bleakmine.bleakMine.BleakMine
+api-version: '1.21'
+
+commands:
+  loresword:
+    usage: loresword
+    permission: bleakmine.loresword
+    permission-message: "У вас нет прав на использование этой команды."
+
+  bleakfeed:
+    persmission: bleakmine.feed
+
+  bleakheal:
+    persmission: bleakmine.heal
+
+  permissions:
+    bleakmine:
+      loresword:
+        description: Позволяет игроку получить меч Poison Sword.
+        default: op
+      feed:
+        default: op
+      heal:
+        default: op
